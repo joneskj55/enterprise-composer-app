@@ -1,0 +1,16 @@
+/*
+============================================
+; Title:  about.component.css
+; Author: Kevin Jones
+; Date: 8 June 2021
+; Description: About component CSS file
+;===========================================
+*/
+
+h3 {
+  text-align: center;
+}
+
+.source {
+  font-size: xx-small;
+}

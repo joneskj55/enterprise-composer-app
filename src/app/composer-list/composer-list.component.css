@@ -1,0 +1,14 @@
+/*
+============================================
+; Title:  composer-list.component.css
+; Author: Kevin Jones
+; Date: 14 June 2021
+; Description: Composer list CSS file
+;===========================================
+*/
+
+.search {
+  width: 30%;
+  float: right;
+  margin-bottom: 5px;
+}

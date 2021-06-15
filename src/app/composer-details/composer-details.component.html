@@ -1,0 +1,20 @@
+<!--
+============================================
+; Title:  composer-details.component.html
+; Author: Kevin Jones
+; Date: 8 June 2021
+; Description: Composer details HTML file
+;===========================================
+ -->
+
+<div class="row">
+  <div class="col-sm-12">
+    <ul class="list-group">
+      <li class="list-group-item">Composer Id: {{ composer.composerId }}</li>
+      <li class="list-group-item">Full name: {{ composer.fullName }}</li>
+      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+    </ul>
+    <br />
+    <a routerLink="/composer-list" class="float-right">Return to Composers</a>
+  </div>
+</div>
