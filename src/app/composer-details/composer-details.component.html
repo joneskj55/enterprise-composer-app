@@ -10,9 +10,11 @@
 <div class="row">
   <div class="col-sm-12">
     <ul class="list-group">
-      <li class="list-group-item">Composer Id: {{ composer.composerId }}</li>
-      <li class="list-group-item">Full name: {{ composer.fullName }}</li>
-      <li class="list-group-item">Genre: {{ composer.genre }}</li>
+      <li class="list-group-item">
+        <b>Composer Id:</b> {{ composer.composerId }}
+      </li>
+      <li class="list-group-item"><b>Full name:</b> {{ composer.fullName }}</li>
+      <li class="list-group-item"><b>Genre:</b> {{ composer.genre }}</li>
     </ul>
     <br />
     <a routerLink="/composer-list" class="float-right">Return to Composers</a>
