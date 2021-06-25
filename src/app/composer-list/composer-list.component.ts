@@ -35,6 +35,6 @@ export class ComposerListComponent implements OnInit {
   ngOnInit(): void {}
 
   filterComposers(name: string) {
-    this.composers = this.composerService.filterComposers(name);
+    this.composers = this.composerService.filterComposers(name.toLowerCase());
   }
 }
